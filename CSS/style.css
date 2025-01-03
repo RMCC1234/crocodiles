@@ -12,6 +12,7 @@ nav {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
+    margin-bottom: 3rem;
     z-index: 1000;
 }
 
@@ -63,4 +64,166 @@ html {
     scroll-padding-top: 4rem;
 }
 
+
+ body {
+    background-color: #fef4e4;
+    color: #444;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 4rem;
+}
+
+section, header {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: left;
+    padding-right: 0;
+}
+
+section {
+    margin-bottom: 6rem;
+}
+
+header {
+    padding-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+h1, h2 {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    color: #3a1078;
+}
+
+h1 {
+    padding-top: 2rem;
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    padding-top: 0.3rem;
+}
+
+h3, h4 {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 3.5rem;
+}
+
+h3 {
+    color: #3a1078;
+    padding-top: 6rem;
+}
+
+h4 {
+    color: #fef4e4;
+    padding-top: 6rem;
+}
+
+p {
+    line-height: 2rem;
+    word-spacing: 0.07rem;
+    padding-top: 2.5rem;
+} 
+
+.section-image {
+    width: 100%;
+}
+
+hr {
+    width: 50%;                 
+    margin: 2rem auto;           
+    border: none;                
+    border-top: 5px solid #3a1078; 
+    opacity: 0.7;              
+}
+
+footer {
+    background-color: #3a1078;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 1rem;
+    margin-top: 4rem;
+}
+
+footer h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+footer p {
+    margin: 1rem 0;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+footer .social-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer .social-links a:hover {
+    color: #f6f6f6;
+}
+
+footer .footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+footer .contact-info {
+    margin-top: 1.5rem;
+}
+
+footer .contact-info a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer .contact-info a:hover {
+    color: #f6f6f6;
+}
+
+#back-to-top {
+    display: block; 
+    position: fixed;
+    right: 4rem;
+    bottom: 4rem;
+    width: 70px;
+    height: 70px;
+    background-color: #3a1078; 
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 70px; 
+    border-radius: 50%; 
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 99;
+    border: 3px solid white;
+}
+
+#back-to-top:hover {
+    background-color: #401082;
+}
 
